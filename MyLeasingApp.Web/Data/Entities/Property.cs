@@ -39,7 +39,7 @@ namespace MyLeasingApp.Web.Data.Entities
         [Display(Name = "Is Available?")]
         public bool IsAvailable { get; set; }
 
-        public string Remarks { get; set; }
+        public string? Remarks { get; set; }
 
         public PropertyType PropertyType { get; set; }
         public Owner Owner { get; set; }
